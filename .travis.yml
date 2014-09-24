@@ -9,4 +9,4 @@ install: python setup.py build
 script: python setup.py test
 notifications:
  email:
-  - raghu@shippable.com
+  - gvraghu@hotmail.com
