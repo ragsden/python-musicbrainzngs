@@ -29,7 +29,7 @@ class UrlTest(unittest.TestCase):
 
         # More than one include
         musicbrainzngs.get_artist_by_id(artistid, ["recordings", "aliases"])
-        expected ="http://musicbrainz.org/ws/2/artist/952a4205-023d-4235-897c-6fdb6f58dfaa?inc=recordings+aliases"
+        expected ="https://musicbrainz.org/ws/2/artist/952a4205-023d-4235-897c-6fdb6f58dfaa?inc=recordings+aliases"
         self.assertEqual(expected, self.opener.get_url())
 
         # with valid filters
