@@ -7,5 +7,5 @@ python:
 install: python setup.py build
 script: python setup.py test
 cache: true
-commit_container: ragster/rags
+#commit_container: ragster/rags
 
