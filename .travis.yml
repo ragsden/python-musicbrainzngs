@@ -7,5 +7,5 @@ python:
 install: python setup.py build
 script: python setup.py test
 cache: true
-build_image: shippable/minv2
+#build_image: shippable/minv2
 #commit_container: ragster/rags
