@@ -9,5 +9,5 @@ script: python setup.py test
 build_image: shippable/minv2ssqsq
 #build_image: shippableimages/ubuntu1204_nodejs
 commit_container: ragster/rags
-cache: true
+#cache: true
 
