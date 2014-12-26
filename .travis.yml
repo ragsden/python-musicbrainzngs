@@ -10,10 +10,10 @@ images:
   image:
     build:
       type: docker
-      name: shippableimages/ubuntu1204_python
+      name: shippableimages/minv2
       tag: latest
       code_path: /home/avinci/src
-build_image: shippableimages/ubuntu1204_python
+build_image: shippableimages/minv2
 #build_image: shippableimages/ubuntu1204_nodejs
 #commit_container: ragster/rags
 #cache: true
