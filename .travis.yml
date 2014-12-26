@@ -6,13 +6,13 @@ python:
 
 install: python setup.py build
 script: python setup.py test
-#images:
-#  image:
-#    build:
-#      type: docker
-#      name: shippableimages/ubuntu1204_python
-#      tag: latest
-#      code_path: /home/avinci/src
+images:
+  image:
+    build:
+      type: docker
+      name: shippableimages/ubuntu1204_python
+      tag: latest
+      code_path: /home/avinci/src
 build_image: shippableimages/ubuntu1204_python
 #build_image: shippableimages/ubuntu1204_nodejs
 #commit_container: ragster/rags
