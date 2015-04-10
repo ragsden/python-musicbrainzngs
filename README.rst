@@ -5,7 +5,7 @@ dassss222sssszvzvzdddddd
 
 This library implements webservice bindings for the Musicbrainz NGS site, also known as /ws/2.
 
-For more information on the musicbrainz webservice see `<http://wiki.musicbrainz.org/XML_Web_Service>`_.
+For more information on the musicbrainz webservice see `<http://wiki.musicbrainz.org/XML_Web_Sexxxxrvice>`_.
 
 Usage
 *****
