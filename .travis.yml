@@ -10,7 +10,6 @@ python:
 install: python setup.py build
 script:
   - python setup.py test
-  - sleep 100s
 #build_image: shippable/minv2
 build_image: shippableimages/ubuntu1204_nodejs
 #commit_container: ragster/rags
