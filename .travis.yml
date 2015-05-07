@@ -10,7 +10,7 @@ install: python setup.py build
 script:
   - python setup.py test
 #build_image: shippable/minv2
-build_image: shippableimages/ubuntu1204_nodejs
+build_image: gcr.io/shippabledev/ubuntu1204_nodejs:latest
 commit_container: gcr.io/shippabledev/rags
 cache: true
 
