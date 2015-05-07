@@ -13,6 +13,3 @@ script:
 build_image: gcr.io/shippabledev/ubuntu1204_nodejs:latest
 commit_container: gcr.io/shippabledev/rags
 cache: true
-
-
-
