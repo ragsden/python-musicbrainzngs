@@ -11,5 +11,5 @@ script:
   - python setup.py test
 #build_image: shippable/minv2
 build_image: gcr.io/shippabledev/ubuntu1204_nodejs:latest
-commit_container: gcr.io/shippabledev/rags
+commit_container: gcr.io/shippabledev/shipgcrdemp
 cache: true
