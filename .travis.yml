@@ -13,7 +13,7 @@ script:
   - python setup.py test
   #- sleep 12000s
 #build_image: shippable/minv2
-build_image: shipimg/ubuntu1204_nodejs:latest
+#build_image: shipimg/ubuntu1204_nodejs:latest
 #commit_container: gcr.io/shippabledev/shipgcrdemp
-commit_container: ragster/rags
+#commit_container: ragster/rags
 cache: true
