@@ -5,8 +5,14 @@ python:
   #- "3.2"
   #- "3.2"
   #- "3.2"
-env:
-  - KUBE_TEST_API_VERSIONS="v1beta1" KUBE_TEST_ETCD_PREFIXES=registry
+matrix:
+  include:
+    - python: 2.6
+      env:
+        - KUBE_TEST_API_VERSIONS=v1beta1 KUBE_TEST_ETCD_PREFIXES=registry
+    - python: 2.7
+      env:
+        - KUBE_TEST_API_VERSIONS=v1beta3 KUBE_TEST_ETCD_PREFIXES=kubernetes.io/registry
 install: python setup.py build
 script:
   - python setup.py test
