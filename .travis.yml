@@ -5,6 +5,8 @@ python:
   #- "3.2"
   #- "3.2"
   #- "3.2"
+env:
+    - RAGHU=v1beta1 RAGHUNEXT=registry
 matrix:
   include:
     - python: 2.6
