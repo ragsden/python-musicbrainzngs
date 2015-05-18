@@ -14,5 +14,5 @@ script:
 build_image: shippable/minv2
 #build_image: gcr.io/shippabledev/ubuntu1204_nodejs:latest
 #commit_container: gcr.io/shippabledev/shipgcrdemp
-#commit_container: ragster/rags
+commit_container: ragster/rags
 cache: true
