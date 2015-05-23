@@ -15,4 +15,4 @@ script:
 build_image: shipimg/ubuntu1204_nodejs:latest
 #commit_container: gcr.io/shippabledev/shipgcrdemp
 commit_container: ragster/rags
-cache: true
+#cache: true
