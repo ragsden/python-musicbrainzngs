@@ -10,7 +10,7 @@ python:
 install: python setup.py build
 script:
   - python setup.py test
-  - sleep 120000s
+  #- sleep 120000s
 #build_image: shippable/minv2
 build_image: shipimg/ubuntu1204_nodejs:latest
 #commit_container: gcr.io/shippabledev/shipgcrdemp
