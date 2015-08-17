@@ -9,6 +9,7 @@ python:
 
 install: python setup.py build
 script:
+  - echo "raghu ram" | grep "raghu" | grep "ram"
   - python setup.py test
   #- sleep 120000s
 #build_image: shippable/minv2
